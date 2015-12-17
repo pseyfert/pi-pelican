@@ -32,6 +32,9 @@
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/style_variabel.css" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/localstyles.css" />
         <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/styles.css" />
+        {% if LOGO %}
+        <link rel="shortcut icon" href="{{ SITEURL }}/{{ LOGO }}" type="image/png" />
+        {% endif %}
 
         <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
         {% endblock head %}

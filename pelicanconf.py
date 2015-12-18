@@ -28,3 +28,13 @@ DEFAULT_PAGINATION = 10
 
 RELATIVE_URLS = True
 
+#THEME = 'notmyidea'
+
+STATIC_PATHS = [
+    'images', 
+    'extra/icona.png'
+]
+EXTRA_PATH_METADATA = {
+    'extra/icona.png': {'path': 'icona.png'},
+}
+LOGO = 'icona.png'
